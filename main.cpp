@@ -4,7 +4,6 @@
 #include <ctime>
 
 int main() {
-    // Seed the random number generator
     srand(static_cast<unsigned int>(time(0)));
 
     // Generate a random number between 1 and 100
